@@ -1,5 +1,5 @@
-#ifndef __MAIN_H__
-#define __MAIN_H__
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,6 +18,7 @@ typedef struct format
 	int (*f)();
 } convert_match;
 
+int _putchar(char c);
 int _printf(const char *format, ...);
 
 
